@@ -8,6 +8,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background-color:antiquewhite;
 }
 
 .cartao {
@@ -19,4 +20,30 @@
 .cartao-imagem{
     width: 100;
     border-radius: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: culumn;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+}
+
+main {
+    flex: 1;
+}
+
+main {
+    flex: 1;
+}
+
+
+.cabecalho-link {
+ color: white;
+ text-decoration: none;   
+}
+
+h1 {
+    color: blue;
+    font-size: 24px;
 }
