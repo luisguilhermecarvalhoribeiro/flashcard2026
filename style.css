@@ -41,6 +41,23 @@ main {
 .cabecalho-link {
  color: white;
  text-decoration: none;   
+
+}
+
+footer{
+    background-color: red;
+    padding: 15px 25px;
+    color: white;
+}
+
+.cartao-interno {
+    position: relative;
+}
+
+.cartao-frente, .cartao-verso{
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px darkgrey;
 }
 
 h1 {
